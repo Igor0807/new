@@ -1,0 +1,21 @@
+{
+    "quantities": [1,2,3,4,5,6,7,8,9,10, 20, 30],
+	"licenses" : [
+        {	
+            "id": "1",
+            "title": "License plan#1",
+            "price": 13,
+            "isDefault": true
+        },
+        {	
+            "id": "2",
+            "title": "License plan#2",
+            "price": 22
+        },
+        {	
+            "id": "3",
+            "title": "License plan#3",
+            "price": 34
+        }
+    ]
+}

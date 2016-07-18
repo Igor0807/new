@@ -1,0 +1,164 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "Bebas", sans-serif;
+	overflow-x: hidden;
+	
+}
+
+.hidden {
+	display: none;
+}
+
+@font-face {
+	font-family: Bebas;
+	src: url(../fonts/Bebas.ttf);
+}
+
+.licenseSelect {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	border: 12px solid #EBEBEB;
+	background-color: #F8F8F8;
+	
+	position: relative;
+}
+
+
+.typeofLic {
+	border-bottom: 2px solid #EBEBEB;
+	margin: 10px 10px;
+	font-size: 10px;
+}
+
+.typeofLic label {
+	display: inline-block;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: Bebas;
+	color: #787878;
+	position: relative;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	padding: 10px 30px 10px 30px;
+	-webkit-user-select: none;
+	box-sizing: border-box;
+}
+
+label span {
+	font-family: sans-serif;
+	font-size: 14px;
+	text-transform: none;
+	margin-left: 130px;
+	font-weight: normal;
+	text-align: center;
+}
+
+input {
+	visibility: hidden;
+	position: absolute;
+}
+
+label i {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	transition: 0.5s;
+	border: 5px solid #EBEBEB;
+	margin-right: 8px;
+}
+
+label:hover> i {
+	box-shadow: inset 0 0 0 3px #fff;
+	background: #3388A8;
+	border: 5px solid gray;
+}
+
+label:hover {
+	outline: 1px solid #B8D7E2;
+	background-color: #EBF4F7;
+}
+
+
+input[type=radio]:checked+ label {
+	outline: 1px solid #B8D7E2;
+	
+	background-color: #EBF4F7;
+}
+
+
+
+input:checked+ label i {
+	border: 5px solid #34648E;
+	box-shadow: inset 0 0 0 5px #F8F8F8;
+	background: #3388A8;
+}
+
+.numberOflic {
+	font-family: sans-serif;
+	padding: 20px 0;
+	margin: 10px 10px;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: 2px solid #EBEBEB;
+}
+
+.buy {
+	text-align: center;
+	position: relative;
+}
+
+.buy .total {
+	margin: 22px 0 10px 0;
+	font-size: 24px;
+	color: #787878;
+	text-transform: uppercase;
+}
+
+.buy .total span {
+	color: #3388A8;
+}
+
+.buy .total sup {
+	font-size: 14px;
+	color: #3388A8;
+	font-weight: normal;
+}
+
+.buy .buyNow {
+	margin: 15px 0;
+}
+
+.buy button {
+	font-family: sans-serif;
+	font-size: 14px;
+	border-radius: 20px;
+	background-color: #33A845;
+	color: #fff;
+	padding: 13px 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	transition: 0.5s ;
+    border: 0;
+}
+a:hover{
+	background-color: #3388A8;
+}
+
+.buy .selectPlan {
+	font-family: sans-serif;
+	margin: 10px 0 25px 0;
+	font-size: 18px;
+	color: #4D97B3;
+	text-transform: none;
+	font-weight: normal;
+	margin-top: 40px;
+}
